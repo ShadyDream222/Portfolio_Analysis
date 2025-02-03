@@ -29,12 +29,13 @@ pip install -r requirements.txt
 
 ## Structure du projet : 
 
+```
 ├── main.py               # Interface Streamlit
 ├── functions.py          # Fonctions utilitaires et calculs
 ├── test_functions.py     # Tests unitaires avec pytest
 ├── report_template.html  # Template Jinja2 pour les rapports
 ├── README.md             # Documentation
-
+```
 
 ## Tests unitaires
 
