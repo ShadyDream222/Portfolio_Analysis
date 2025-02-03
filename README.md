@@ -4,13 +4,19 @@ Un Projet Streamlit permettant d'analyser les performances d'un portefeuille fin
 
 ##  Quick Start 
 
-'pip install -r requirements.txt'
+`pip install -r requirements.txt`
 
 ### Installation
 
-'git clone https://github.com/ShadyDream22/Portfolio_Analysis.git
-cd votre-repo
-pip install -r requirements.txt'
+```
+git clone https://github.com/ShadyDream222/Portfolio_Analysis.git
+cd Portfolio_Analysis
+pip install -r requirements.txt
+```
+
+### Lancement 
+
+`streamlit run main.py`
 
 ## Il possède les fonctionnalités suivantes :
 
@@ -28,3 +34,11 @@ pip install -r requirements.txt'
 ├── test_functions.py     # Tests unitaires avec pytest
 ├── report_template.html  # Template Jinja2 pour les rapports
 ├── README.md             # Documentation
+
+
+## Tests unitaires
+
+Les tests unitaires sont définis dans test_functions.py. Pour les exécuter :
+`pytest test_functions.py -v --tb=long`
+
+## Quelques images...
