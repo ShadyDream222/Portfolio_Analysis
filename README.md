@@ -1,5 +1,7 @@
 # Portfolio_Analysis
 
+**Contributeur** : GUIDDIR Lucas 
+
 Un Projet Streamlit permettant d'analyser les performances d'un portefeuille financier à l'aide de yfinance, pandas,  plotly, et streamlit. 
 
 ##  Quick Start 
@@ -51,3 +53,4 @@ Les tests unitaires sont définis dans test_functions.py. Pour les exécuter :
 `pytest test_functions.py -v --tb=long`
 
 ## Quelques images...
+
