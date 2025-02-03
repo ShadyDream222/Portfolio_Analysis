@@ -39,10 +39,10 @@ pip install -r requirements.txt
 
 ## Explication des fichiers
 
- __main.py__ : Interface principale utilisant Streamlit
- __functions.py__ : Contient toutes les fonctions de manipulation des données
- __test_functions.py__ : Fichier contenant les tests unitaires
- __report_template.html__ : Modèle pour générer un rapport HTML
+ __main.py__ : Interface principale utilisant Streamlit  
+ __functions.py__ : Contient toutes les fonctions de manipulation des données  
+ __test_functions.py__ : Fichier contenant les tests unitaires  
+ __report_template.html__ : Modèle pour générer un rapport HTML  
 
 ## Tests unitaires
 
