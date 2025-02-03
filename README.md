@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 - Sélection d'actifs financiers et récupération des données via Yahoo Finance
 - Analyse statistique et graphique des performances du portefeuille
-- Calcul d’indicateurs financiers tels que le Sharpe Ratio et la Value at Ris
+- Calcul d’indicateurs financiers tels que le Sharpe Ratio et la Value at Risk
 - Génération automatique de rapports HTML sur la base des données analysées
 - Intégration des scores ESG pour une évaluation de l’impact environnemental et social
 
@@ -40,6 +40,7 @@ pip install -r requirements.txt
 ## Tests unitaires
 
 Les tests unitaires sont définis dans test_functions.py. Pour les exécuter :
+
 `pytest test_functions.py -v --tb=long`
 
 ## Quelques images...
