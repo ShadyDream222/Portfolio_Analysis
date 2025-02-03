@@ -37,6 +37,13 @@ pip install -r requirements.txt
 ├── README.md             # Documentation
 ```
 
+## Explication des fichiers
+
+* main.py : Interface principale utilisant Streamlit
+* functions.py : Contient toutes les fonctions de manipulation des données
+* test_functions.py : Fichier contenant les tests unitaires
+* report_template.html : Modèle pour générer un rapport HTML
+
 ## Tests unitaires
 
 Les tests unitaires sont définis dans test_functions.py. Pour les exécuter :
