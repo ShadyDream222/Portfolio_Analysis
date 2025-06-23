@@ -1,0 +1,63 @@
+2025-06-23 19:16:25,058 | INFO : Liste de tous les tickers chargée avec succès
+2025-06-23 19:16:27,748 | INFO : --------------------
+2025-06-23 19:16:27,748 | INFO : Logo chargé avec succès pour AAPL.
+2025-06-23 19:16:30,730 | INFO : Sharpe Ratio calculé avec succès
+2025-06-23 19:16:30,817 | INFO : Extraction des indicateurs économiques de 2024-01-01 à 2025-06-23.
+2025-06-23 19:16:33,810 | INFO : Extraction des indicateurs économiques réussie
+2025-06-23 19:16:33,810 | INFO : Fusion et transformation des indicateurs économiques
+2025-06-23 19:16:33,817 | INFO : Transformation des indicateurs économiques réussie
+2025-06-23 19:16:34,217 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-23 19:16:34,218 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-23 19:16:34,221 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-23 19:16:34,222 | INFO : Matrice de corrélation calculée avec succès
+2025-06-23 19:16:34,225 | INFO : Calcul du Pearson p-value avec succès
+2025-06-23 19:16:34,251 | INFO : Sharpe Ratio calculé avec succès
+2025-06-23 19:16:34,253 | INFO : Drawdown maximal calculé avec succès
+2025-06-23 19:16:34,330 | INFO : Extraction des données ESG pour AAPL
+2025-06-23 19:16:34,392 | INFO : Données ESG récupérées avec succès pour AAPL
+2025-06-23 19:16:34,395 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-23 19:16:35,055 | INFO : --------------------
+2025-06-23 19:16:35,055 | INFO : Logo chargé avec succès pour MSFT.
+2025-06-23 19:16:35,418 | INFO : Sharpe Ratio calculé avec succès
+2025-06-23 19:16:35,616 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-23 19:16:35,617 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-23 19:16:35,621 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-23 19:16:35,623 | INFO : Matrice de corrélation calculée avec succès
+2025-06-23 19:16:35,626 | INFO : Calcul du Pearson p-value avec succès
+2025-06-23 19:16:35,641 | INFO : Sharpe Ratio calculé avec succès
+2025-06-23 19:16:35,647 | INFO : Drawdown maximal calculé avec succès
+2025-06-23 19:16:35,755 | INFO : Extraction des données ESG pour MSFT
+2025-06-23 19:16:35,856 | INFO : Données ESG récupérées avec succès pour MSFT
+2025-06-23 19:16:35,859 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-23 19:36:50,631 | INFO : --------------------
+2025-06-23 19:36:50,632 | INFO : Logo chargé avec succès pour TSLA.
+2025-06-23 19:36:51,713 | INFO : Sharpe Ratio calculé avec succès
+2025-06-23 19:36:51,945 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-23 19:36:51,947 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-23 19:36:51,952 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-23 19:36:51,954 | INFO : Matrice de corrélation calculée avec succès
+2025-06-23 19:36:51,961 | INFO : Calcul du Pearson p-value avec succès
+2025-06-23 19:36:51,979 | INFO : Sharpe Ratio calculé avec succès
+2025-06-23 19:36:51,981 | INFO : Drawdown maximal calculé avec succès
+2025-06-23 19:36:52,051 | INFO : Extraction des données ESG pour TSLA
+2025-06-23 19:36:52,097 | INFO : Données ESG récupérées avec succès pour TSLA
+2025-06-23 19:36:52,101 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-23 19:37:22,404 | INFO : Sharpe Ratio calculé avec succès
+2025-06-23 19:37:22,592 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-23 19:37:22,594 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-23 19:37:22,599 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-23 19:37:22,600 | INFO : Matrice de corrélation calculée avec succès
+2025-06-23 19:37:22,603 | INFO : Calcul du Pearson p-value avec succès
+2025-06-23 19:37:22,617 | INFO : Sharpe Ratio calculé avec succès
+2025-06-23 19:37:22,619 | INFO : Drawdown maximal calculé avec succès
+2025-06-23 19:37:22,685 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-23 19:37:22,865 | INFO : Rapport HTML généré avec succès
+2025-06-23 19:37:25,219 | INFO : Sharpe Ratio calculé avec succès
+2025-06-23 19:37:25,560 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-23 19:37:25,567 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-23 19:37:25,584 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-23 19:37:25,590 | INFO : Matrice de corrélation calculée avec succès
+2025-06-23 19:37:25,596 | INFO : Calcul du Pearson p-value avec succès
+2025-06-23 19:37:25,618 | INFO : Sharpe Ratio calculé avec succès
+2025-06-23 19:37:25,621 | INFO : Drawdown maximal calculé avec succès
+2025-06-23 19:37:25,707 | INFO : Nettoyage et transformation des données ESG terminés avec succès
