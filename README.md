@@ -8,6 +8,8 @@ Un Projet Streamlit permettant d'analyser les performances d'un portefeuille fin
 
 `pip install -r requirements.txt`
 
+If there is any issue of Python version : use Python 3.11 version by creating a virtual environment
+
 ### Installation
 
 ```
