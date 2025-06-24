@@ -249,3 +249,57 @@ KeyError: 'Date'
 2025-06-24 20:51:56,822 | INFO : Sharpe Ratio calculé avec succès
 2025-06-24 20:51:56,824 | INFO : Drawdown maximal calculé avec succès
 2025-06-24 20:51:56,945 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-24 21:08:42,641 | INFO : Liste de tous les tickers chargée avec succès
+2025-06-24 21:09:08,166 | INFO : --------------------
+2025-06-24 21:09:08,167 | INFO : Logo chargé avec succès pour AAPL.
+2025-06-24 21:09:09,458 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 21:09:09,544 | INFO : Extraction des indicateurs économiques de 2024-01-01 à 2025-06-24.
+2025-06-24 21:09:13,575 | INFO : Extraction des indicateurs économiques réussie
+2025-06-24 21:09:13,575 | INFO : Fusion et transformation des indicateurs économiques
+2025-06-24 21:09:13,595 | INFO : Transformation des indicateurs économiques réussie
+2025-06-24 21:09:13,944 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-24 21:09:13,945 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-24 21:09:13,948 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-24 21:09:13,949 | INFO : Matrice de corrélation calculée avec succès
+2025-06-24 21:09:13,953 | INFO : Calcul du Pearson p-value avec succès
+2025-06-24 21:09:13,973 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 21:09:13,976 | INFO : Drawdown maximal calculé avec succès
+2025-06-24 21:09:14,043 | INFO : Extraction des données ESG pour AAPL
+2025-06-24 21:09:14,216 | INFO : Données ESG récupérées avec succès pour AAPL
+2025-06-24 21:09:14,220 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-24 21:13:45,219 | INFO : Liste de tous les tickers chargée avec succès
+2025-06-24 21:13:48,241 | INFO : --------------------
+2025-06-24 21:13:48,242 | INFO : Logo chargé avec succès pour AAPL.
+2025-06-24 21:13:49,432 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 21:13:49,503 | INFO : Extraction des indicateurs économiques de 2024-01-01 à 2025-06-24.
+2025-06-24 21:13:50,073 | INFO : Extraction des indicateurs économiques réussie
+2025-06-24 21:13:50,074 | INFO : Fusion et transformation des indicateurs économiques
+2025-06-24 21:13:50,085 | INFO : Transformation des indicateurs économiques réussie
+2025-06-24 21:13:50,637 | INFO : --------------------
+2025-06-24 21:13:50,638 | INFO : Logo chargé avec succès pour MSFT.
+2025-06-24 21:13:50,906 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 21:13:51,127 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-24 21:13:51,129 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-24 21:13:51,134 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-24 21:13:51,136 | INFO : Matrice de corrélation calculée avec succès
+2025-06-24 21:13:51,141 | INFO : Calcul du Pearson p-value avec succès
+2025-06-24 21:13:51,164 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 21:13:51,166 | INFO : Drawdown maximal calculé avec succès
+2025-06-24 21:13:51,240 | INFO : Extraction des données ESG pour AAPL
+2025-06-24 21:13:51,403 | INFO : Données ESG récupérées avec succès pour AAPL
+2025-06-24 21:13:51,404 | INFO : Extraction des données ESG pour MSFT
+2025-06-24 21:13:51,474 | INFO : Données ESG récupérées avec succès pour MSFT
+2025-06-24 21:13:51,485 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-24 21:13:53,935 | INFO : --------------------
+2025-06-24 21:13:53,936 | INFO : Logo chargé avec succès pour NVDA.
+2025-06-24 21:13:54,900 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 21:13:55,118 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-24 21:13:55,119 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-24 21:13:55,125 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-24 21:13:55,126 | INFO : Matrice de corrélation calculée avec succès
+2025-06-24 21:13:55,129 | INFO : Calcul du Pearson p-value avec succès
+2025-06-24 21:13:55,147 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 21:13:55,149 | INFO : Drawdown maximal calculé avec succès
+2025-06-24 21:13:55,219 | INFO : Extraction des données ESG pour NVDA
+2025-06-24 21:13:55,367 | INFO : Données ESG récupérées avec succès pour NVDA
+2025-06-24 21:13:55,371 | INFO : Nettoyage et transformation des données ESG terminés avec succès
