@@ -61,3 +61,191 @@
 2025-06-23 19:37:25,618 | INFO : Sharpe Ratio calculé avec succès
 2025-06-23 19:37:25,621 | INFO : Drawdown maximal calculé avec succès
 2025-06-23 19:37:25,707 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-24 20:38:19,063 | INFO : Liste de tous les tickers chargée avec succès
+2025-06-24 20:38:24,919 | ERROR : 
+1 Failed download:
+2025-06-24 20:38:24,919 | ERROR : ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-24 20:38:24,927 | WARNING : Aucune donnée trouvé pour AAPL entre 2024-01-01 et 2025-06-24. Non chargé
+2025-06-24 20:38:24,929 | ERROR : Erreur d'extraction des données API: "The following id_vars or value_vars are not present in the DataFrame: ['Date']"
+2025-06-24 20:38:24,937 | INFO : Erreur de visualisation pour le portfolio performance : Value of 'x' is not the name of a column in 'data_frame'. Expected one of [] but received: Date
+2025-06-24 20:38:24,937 | WARNING : Le DataFrame est vide. Impossible de calculer le ratio de Sharpe
+2025-06-24 20:38:24,938 | ERROR : Erreur lors du calcul de la VaR historique : 'Date'
+Traceback (most recent call last):
+  File "/Users/lucas/PortfolioProject/Portfolio_Analysis/functions.py", line 759, in calcul_historic_VaR
+    data = data.pivot(index="Date",
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/pandas/core/frame.py", line 9339, in pivot
+    return pivot(self, index=index, columns=columns, values=values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/pandas/core/reshape/pivot.py", line 553, in pivot
+    index_list = [data[idx] for idx in com.convert_to_list_like(index)]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/pandas/core/reshape/pivot.py", line 553, in <listcomp>
+    index_list = [data[idx] for idx in com.convert_to_list_like(index)]
+                  ~~~~^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'Date'
+2025-06-24 20:41:03,434 | INFO : Liste de tous les tickers chargée avec succès
+2025-06-24 20:41:09,157 | ERROR : 
+1 Failed download:
+2025-06-24 20:41:09,157 | ERROR : ['AAPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-24 20:41:09,162 | WARNING : Aucune donnée trouvé pour AAPL entre 2024-01-01 et 2025-06-24. Non chargé
+2025-06-24 20:41:09,164 | ERROR : Erreur d'extraction des données API: "The following id_vars or value_vars are not present in the DataFrame: ['Date']"
+2025-06-24 20:41:09,170 | INFO : Erreur de visualisation pour le portfolio performance : Value of 'x' is not the name of a column in 'data_frame'. Expected one of [] but received: Date
+2025-06-24 20:41:09,170 | WARNING : Le DataFrame est vide. Impossible de calculer le ratio de Sharpe
+2025-06-24 20:41:09,171 | ERROR : Erreur lors du calcul de la VaR historique : 'Date'
+Traceback (most recent call last):
+  File "/Users/lucas/PortfolioProject/Portfolio_Analysis/functions.py", line 759, in calcul_historic_VaR
+    data = data.pivot(index="Date",
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucas/PortfolioProject/lib/python3.11/site-packages/pandas/core/frame.py", line 9339, in pivot
+    return pivot(self, index=index, columns=columns, values=values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucas/PortfolioProject/lib/python3.11/site-packages/pandas/core/reshape/pivot.py", line 553, in pivot
+    index_list = [data[idx] for idx in com.convert_to_list_like(index)]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucas/PortfolioProject/lib/python3.11/site-packages/pandas/core/reshape/pivot.py", line 553, in <listcomp>
+    index_list = [data[idx] for idx in com.convert_to_list_like(index)]
+                  ~~~~^^^^^
+  File "/Users/lucas/PortfolioProject/lib/python3.11/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucas/PortfolioProject/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'Date'
+2025-06-24 20:41:16,738 | ERROR : 
+1 Failed download:
+2025-06-24 20:41:16,739 | ERROR : ['MSFT']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2025-06-24 20:41:16,743 | WARNING : Aucune donnée trouvé pour MSFT entre 2024-01-01 et 2025-06-24. Non chargé
+2025-06-24 20:41:16,744 | ERROR : Erreur d'extraction des données API: "The following id_vars or value_vars are not present in the DataFrame: ['Date']"
+2025-06-24 20:41:16,746 | INFO : Erreur de visualisation pour le portfolio performance : Value of 'x' is not the name of a column in 'data_frame'. Expected one of [] but received: Date
+2025-06-24 20:41:16,746 | WARNING : Le DataFrame est vide. Impossible de calculer le ratio de Sharpe
+2025-06-24 20:41:16,747 | ERROR : Erreur lors du calcul de la VaR historique : 'Date'
+Traceback (most recent call last):
+  File "/Users/lucas/PortfolioProject/Portfolio_Analysis/functions.py", line 759, in calcul_historic_VaR
+    data = data.pivot(index="Date",
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucas/PortfolioProject/lib/python3.11/site-packages/pandas/core/frame.py", line 9339, in pivot
+    return pivot(self, index=index, columns=columns, values=values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucas/PortfolioProject/lib/python3.11/site-packages/pandas/core/reshape/pivot.py", line 553, in pivot
+    index_list = [data[idx] for idx in com.convert_to_list_like(index)]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucas/PortfolioProject/lib/python3.11/site-packages/pandas/core/reshape/pivot.py", line 553, in <listcomp>
+    index_list = [data[idx] for idx in com.convert_to_list_like(index)]
+                  ~~~~^^^^^
+  File "/Users/lucas/PortfolioProject/lib/python3.11/site-packages/pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/lucas/PortfolioProject/lib/python3.11/site-packages/pandas/core/indexes/range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'Date'
+2025-06-24 20:47:38,458 | INFO : Liste de tous les tickers chargée avec succès
+2025-06-24 20:47:44,439 | INFO : --------------------
+2025-06-24 20:47:44,439 | INFO : Logo chargé avec succès pour AAPL.
+2025-06-24 20:47:48,803 | INFO : --------------------
+2025-06-24 20:47:48,804 | INFO : Logo chargé avec succès pour MSFT.
+2025-06-24 20:47:50,862 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:47:50,904 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:47:51,041 | INFO : Extraction des indicateurs économiques de 2024-01-01 à 2025-06-24.
+2025-06-24 20:47:54,315 | INFO : Extraction des indicateurs économiques réussie
+2025-06-24 20:47:54,315 | INFO : Fusion et transformation des indicateurs économiques
+2025-06-24 20:47:54,325 | INFO : Transformation des indicateurs économiques réussie
+2025-06-24 20:47:54,654 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-24 20:47:54,655 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-24 20:47:54,659 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-24 20:47:54,661 | INFO : Matrice de corrélation calculée avec succès
+2025-06-24 20:47:54,665 | INFO : Calcul du Pearson p-value avec succès
+2025-06-24 20:47:54,688 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:47:54,690 | INFO : Drawdown maximal calculé avec succès
+2025-06-24 20:47:54,769 | INFO : Extraction des données ESG pour AAPL
+2025-06-24 20:47:54,947 | INFO : Données ESG récupérées avec succès pour AAPL
+2025-06-24 20:47:54,948 | INFO : Extraction des données ESG pour MSFT
+2025-06-24 20:47:54,995 | INFO : Données ESG récupérées avec succès pour MSFT
+2025-06-24 20:47:55,003 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-24 20:48:13,078 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:48:13,327 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-24 20:48:13,329 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-24 20:48:13,334 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-24 20:48:13,336 | INFO : Matrice de corrélation calculée avec succès
+2025-06-24 20:48:13,342 | INFO : Calcul du Pearson p-value avec succès
+2025-06-24 20:48:13,358 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:48:13,360 | INFO : Drawdown maximal calculé avec succès
+2025-06-24 20:48:13,432 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-24 20:48:21,410 | ERROR : Erreur lors du chargement du logo pour SPGP : 'website'
+2025-06-24 20:48:21,672 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:48:21,848 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-24 20:48:21,850 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-24 20:48:21,852 | INFO : Calcul de la corrélation pour: SPGP
+2025-06-24 20:48:21,853 | INFO : Matrice de corrélation calculée avec succès
+2025-06-24 20:48:21,856 | INFO : Calcul du Pearson p-value avec succès
+2025-06-24 20:48:21,870 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:48:21,872 | INFO : Drawdown maximal calculé avec succès
+2025-06-24 20:48:21,941 | INFO : Extraction des données ESG pour SPGP
+2025-06-24 20:48:22,070 | ERROR : HTTP Error 404: 
+2025-06-24 20:48:22,071 | WARNING : Aucune donnée ESG disponible pour SPGP
+2025-06-24 20:48:22,071 | INFO : Aucune ESG Data pour SPGP
+2025-06-24 20:48:22,072 | WARNING : Le DataFrame ESG fourni est vide. Aucun traitement effectué
+2025-06-24 20:48:45,227 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:48:45,421 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-24 20:48:45,423 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-24 20:48:45,426 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-24 20:48:45,427 | INFO : Matrice de corrélation calculée avec succès
+2025-06-24 20:48:45,430 | INFO : Calcul du Pearson p-value avec succès
+2025-06-24 20:48:45,447 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:48:45,451 | INFO : Drawdown maximal calculé avec succès
+2025-06-24 20:48:45,538 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-24 20:48:47,349 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:48:47,540 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-24 20:48:47,542 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-24 20:48:47,546 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-24 20:48:47,548 | INFO : Matrice de corrélation calculée avec succès
+2025-06-24 20:48:47,550 | INFO : Calcul du Pearson p-value avec succès
+2025-06-24 20:48:47,564 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:48:47,567 | INFO : Drawdown maximal calculé avec succès
+2025-06-24 20:48:47,672 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-24 20:48:54,763 | INFO : --------------------
+2025-06-24 20:48:54,763 | INFO : Logo chargé avec succès pour NVDA.
+2025-06-24 20:48:55,706 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:48:55,933 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-24 20:48:55,935 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-24 20:48:55,940 | INFO : Calcul de la corrélation pour: AAPL
+2025-06-24 20:48:55,943 | INFO : Matrice de corrélation calculée avec succès
+2025-06-24 20:48:55,946 | INFO : Calcul du Pearson p-value avec succès
+2025-06-24 20:48:55,963 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:48:55,965 | INFO : Drawdown maximal calculé avec succès
+2025-06-24 20:48:56,037 | INFO : Extraction des données ESG pour NVDA
+2025-06-24 20:48:56,237 | INFO : Données ESG récupérées avec succès pour NVDA
+2025-06-24 20:48:56,241 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-24 20:50:07,871 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:50:08,079 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-24 20:50:08,081 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-24 20:50:08,087 | INFO : Calcul de la corrélation pour: MSFT
+2025-06-24 20:50:08,089 | INFO : Matrice de corrélation calculée avec succès
+2025-06-24 20:50:08,092 | INFO : Calcul du Pearson p-value avec succès
+2025-06-24 20:50:08,126 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:50:08,129 | INFO : Drawdown maximal calculé avec succès
+2025-06-24 20:50:08,205 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-24 20:51:53,749 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:51:53,953 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-24 20:51:53,954 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-24 20:51:53,958 | INFO : Calcul de la corrélation pour: MSFT
+2025-06-24 20:51:53,960 | INFO : Matrice de corrélation calculée avec succès
+2025-06-24 20:51:53,963 | INFO : Calcul du Pearson p-value avec succès
+2025-06-24 20:51:53,979 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:51:53,981 | INFO : Drawdown maximal calculé avec succès
+2025-06-24 20:51:54,051 | INFO : Nettoyage et transformation des données ESG terminés avec succès
+2025-06-24 20:51:54,229 | INFO : Rapport HTML généré avec succès
+2025-06-24 20:51:56,447 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:51:56,783 | INFO : Début de la normalisation des indicateurs économiques.
+2025-06-24 20:51:56,785 | INFO : Normalisation des données économiques terminés avec succès
+2025-06-24 20:51:56,798 | INFO : Calcul de la corrélation pour: MSFT
+2025-06-24 20:51:56,800 | INFO : Matrice de corrélation calculée avec succès
+2025-06-24 20:51:56,804 | INFO : Calcul du Pearson p-value avec succès
+2025-06-24 20:51:56,822 | INFO : Sharpe Ratio calculé avec succès
+2025-06-24 20:51:56,824 | INFO : Drawdown maximal calculé avec succès
+2025-06-24 20:51:56,945 | INFO : Nettoyage et transformation des données ESG terminés avec succès
