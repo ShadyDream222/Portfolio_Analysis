@@ -4,13 +4,17 @@
 
 Un Projet Streamlit permettant d'analyser les performances d'un portefeuille financier à l'aide de yfinance, pandas,  plotly, et streamlit. 
 
-##  Quick Start 
-
-`pip install -r requirements.txt`
-
-If there is any issue of Python version : use Python 3.11 version by creating a virtual environment
+* Python version * : 3.11.7
 
 ### Installation
+
+Create a virtual environment :
+
+```
+python3.11 -m venv venv
+```
+
+Clone the project :
 
 ```
 git clone https://github.com/ShadyDream222/Portfolio_Analysis.git
@@ -54,5 +58,14 @@ Les tests unitaires sont définis dans test_functions.py. Pour les exécuter :
 
 `pytest test_functions.py -v --tb=long`
 
+Issues :
+
+If you have some issues to launch it, try :
+```
+pip install --upgrade yfinance
+```
+
+
 ## Quelques images...
+<img width="1440" height="779" alt="Capture d’écran 2025-10-27 à 19 45 11" src="https://github.com/user-attachments/assets/313c6c7e-8b9b-4b3d-9213-05cf2db5e068" />
 
